@@ -24,9 +24,17 @@ decimal saldo = monto;
 
 for (int i = 1; i <= plazo; i++)
 {
-    decimal interes = saldo * tasaInteresMensual;
+    decimal interes = Math.Round(saldo * tasaInteresMensual, 2);
     decimal abonoCapital = cuotaFija - interes;
-    saldo -= abonoCapital;
+    decimal pago = cuotaFija;
+
+    if (i == plazo)
+    {
+        abonoCapital = saldo;
+        pago = abonoCapital + interes;
+    }
+
+    saldo = Math.Round (saldo - abonoCapital, 2);
 
     tabla.AddRow(
         i.ToString(),
