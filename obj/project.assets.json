@@ -88,11 +88,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\LP2\\Actividad 2 - Tabla de amortización de deuda\\Prueba.csproj",
-      "projectName": "Prueba",
-      "projectPath": "C:\\Users\\PC\\Desktop\\LP2\\Actividad 2 - Tabla de amortización de deuda\\Prueba.csproj",
+      "projectUniqueName": "c:\\Users\\PC\\Desktop\\LP2\\Actividad 2 - Tabla de amortización de deuda\\Actividad 2 - Tabla de amortización de deuda.csproj",
+      "projectName": "Actividad 2 - Tabla de amortización de deuda",
+      "projectPath": "c:\\Users\\PC\\Desktop\\LP2\\Actividad 2 - Tabla de amortización de deuda\\Actividad 2 - Tabla de amortización de deuda.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\LP2\\Actividad 2 - Tabla de amortización de deuda\\obj\\",
+      "outputPath": "c:\\Users\\PC\\Desktop\\LP2\\Actividad 2 - Tabla de amortización de deuda\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
